@@ -79,13 +79,16 @@ const useStyles = makeStyles((theme: Theme) =>
 
 export default function FormikComponent() {
   async function handleSubmit(values: FormValues) {
-    const response = await fetch("http://localhost:5000/register", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(values),
-    });
+    const response = await fetch(
+      "https://cv-form-backend.herokuapp.com/register",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(values),
+      }
+    );
     const data = await response.json();
     return data.values;
   }
