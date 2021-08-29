@@ -1,5 +1,4 @@
 import Head from "next/head";
-import "swagger-ui-react/swagger-ui.css";
 import { CssBaseline } from "@material-ui/core";
 import DenseAppBar from "../components/appbar";
 import FormikComponent from "../components/form";
