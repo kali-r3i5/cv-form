@@ -33,7 +33,7 @@ export default function DenseAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" color="inherit">
-            Dados Pessoais
+            Jobs.NET - Cadastro de Candidato
           </Typography>
         </Toolbar>
       </AppBar>

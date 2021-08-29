@@ -3,7 +3,7 @@ import { connectToDatabase } from "../lib/mongodb";
 import "swagger-ui-react/swagger-ui.css";
 import { CssBaseline } from "@material-ui/core";
 import DenseAppBar from "../components/appbar";
-import FormComponent from "../components/form";
+import FormikComponent from "../components/form";
 
 export default function Home({ isConnected }) {
   return (
@@ -18,7 +18,7 @@ export default function Home({ isConnected }) {
         />
       </Head>
       <DenseAppBar />
-      <FormComponent />
+      <FormikComponent />
       <div className="container">
         <main></main>
       </div>
@@ -26,12 +26,12 @@ export default function Home({ isConnected }) {
   );
 }
 
-export async function getServerSideProps(context) {
-  const { client } = await connectToDatabase();
+// export async function getServerSideProps(context) {
+//   const { client } = await connectToDatabase();
 
-  const isConnected = await client.isConnected();
+//   const isConnected = await client.isConnected();
 
-  return {
-    props: { isConnected },
-  };
-}
+//   return {
+//     props: { isConnected },
+//   };
+// }
