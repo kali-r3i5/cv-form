@@ -1,6 +1,6 @@
 
 <p align="center">
-  <h1>⚠⚠⚠ Backend: https://github.com/kali-r3i5/cv-form-backend ⚠⚠⚠</h1>
+  <h1>⚠ Backend: https://github.com/kali-r3i5/cv-form-backend ⚠</h1>
 </p>
 <p align="center">
   <img src="https://github.com/kali-r3i5/cv-form/blob/main/public/snapshot.png" width="800" />
