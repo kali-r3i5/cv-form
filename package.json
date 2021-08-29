@@ -11,7 +11,6 @@
     "@material-ui/icons": "^4.11.2",
     "@material-ui/pickers": "^3.3.10",
     "date-fns": "^2.0.0-beta.5",
-    "express": "^4.17.1",
     "formik": "^2.2.9",
     "formik-material-ui": "^3.0.1",
     "next": "latest",
